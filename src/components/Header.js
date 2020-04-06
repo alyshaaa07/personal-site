@@ -9,7 +9,7 @@ function Header () {
     <div className="nav-bar">
       <Link to="/" ><img class="logo" src={meImage} alt=''/></Link>
       <div className="nav-items">
-        <a className="nav-link" href="#" >Projects ></a>
+        <a className="nav-link" href="https://dribbble.com/alyshaaa_07" >Projects ></a>
         <Link to="/about" ><a className="nav-link" href="#" >About ></a></Link>
       </div>
     </div>

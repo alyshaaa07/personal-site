@@ -1,11 +1,4 @@
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-bar{
+.nav-bar {
   height: 160px;
   width: 100%;
   padding: 3em;
@@ -13,7 +6,6 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-
 
 .nav-items{
   display: inline-block;

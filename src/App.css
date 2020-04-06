@@ -1,0 +1,53 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Barlow;
+  color: #2D2F35;
+}
+.section-container {
+  display: flex;
+  justify-content: center;
+  padding: 4em 0;
+}
+
+.content-container {
+  width: 1200px;
+  
+}
+
+h1 {
+  font-size: 7.4em;
+  font-weight: 500;
+  line-height: 131.4%;
+}
+
+@media only screen and (max-width: 992px) {
+  h1 {
+    font-size: 6.6em;
+    font-weight: 500;
+    line-height: 131.4%;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 5.0em;
+    font-weight: 500;
+    line-height: 131.4%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2.8em;
+    font-weight: 500;
+    line-height: 135.4%;
+  }
+}

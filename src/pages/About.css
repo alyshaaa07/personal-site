@@ -1,0 +1,58 @@
+.about-heading1 {
+  text-align: left;
+  margin: 0 1em;
+}
+
+.about-points {
+  font-size: 5em;
+  font-weight: 460;
+  text-align: left;
+  padding-bottom: 2em;
+  margin: 0 1em;
+}
+
+
+.images {
+  background-color: #161617;
+}
+
+.gallery { 
+  display: grid;
+  grid-gap: 1rem;
+  grid-auto-flow: dense;
+  padding: 1rem;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.photo-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.gallery img {
+  width: 15em;
+  margin: 3em;
+}
+
+@media only screen and (max-width: 992px) {
+  .about-points {
+    font-weight: 460;
+    font-size: 4.2em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about-points {
+    font-weight: 460;
+    font-size: 2.8em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about-points {
+    font-weight: 460;
+    font-size: 2em;
+  }
+}

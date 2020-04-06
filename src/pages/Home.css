@@ -1,0 +1,120 @@
+
+
+.hero {
+  padding: 3em;
+}
+
+.intro {
+  padding-bottom: 2em;
+}
+
+.heading {
+  margin: 0 1em;
+}
+
+.banner {
+  text-align: center;
+  height: 3.8em;
+  background-color: #333640;
+  color: #C0C1C5;
+  font-size: 2.6em;
+  font-weight: 400;
+  padding: 1.2em;  
+}
+
+.skills {
+  word-wrap: break-word;
+}
+
+.skillset {
+  padding-top: 3em;
+}
+
+.skills-label {
+  font-weight: 460;
+  font-size: 5.4em;
+  text-align: left;
+  margin: 0 1em;
+}
+
+.skills-list {
+  font-weight: 460;
+  font-size: 5.4em;
+  line-height: 1.4em;
+  text-align: left;
+  margin: 0 1em;
+  padding-left: 1.2em;
+}
+
+@media only screen and (max-width: 992px) {
+  .banner {
+    height: 3.2em;
+    font-size: 2.6em;
+    font-weight: 400;
+    padding: 1em;  
+  }
+
+  .skills-label {
+    font-weight: 460;
+    font-size: 5em;
+  }
+  
+  .skills-list {
+    font-weight: 460;
+    font-size: 5em;
+  }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .banner {
+    height: 3em;
+    font-size: 2.2em;
+    font-weight: 400;
+    padding: 1em;  
+  }
+  .skills-label {
+    font-weight: 460;
+    font-size: 3em;
+  }
+  
+  .skills-list {
+    font-weight: 460;
+    font-size: 3em;
+  }
+
+  .skillset {
+    padding: 3em;
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .banner {
+    height: 2.8em;
+    font-size: 1.4em;
+    font-weight: 400;
+    padding: 0.7em;  
+  }
+
+  .skills-label {
+    font-weight: 460;
+    font-size: 2em;
+  }
+  
+  .skills-list {
+    font-weight: 460;
+    font-size: 2em;
+  }
+
+  .skillset {
+    padding: 0.8em;
+  }
+}
+
+
+
+
+
